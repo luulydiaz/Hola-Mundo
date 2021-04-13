@@ -1,0 +1,21 @@
+1. cd Desktop
+2. mkdir Hola-Mundo
+3. cd Hola-Mundo
+3. git init
+5. touch README.md
+6. git add README.md
+7. git commit -m "Mi primer commit"
+8. git remote add origin https://github.com/luulydiaz/Hola-Mundo.git
+9. git pull origin main --allow-unrelated-histories
+11. git branch --set-upstream-to=origin/main main
+12. git push origin HEAD:main
+13. git clone https://github.com/luulydiaz/Hola-Mundo.git
+14. git checkout -b dev
+15. git add README.md
+16. git commit -m "Cambios en la rama"
+17. git push origin dev
+18. git checkout main
+19. git merge dev
+20. git push origin HEAD:main
+21. Borro rama desde GitHub.com
+
